@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding= "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name= "Default Suite" parallel= "methods" thread-count="3">
+<suite name= "Default Suite" ><!--parallel= "methods" thread-count="3"-->
     <test name="Selenium_Grid_Demo">
       <classes>
-        <class name= "com.it.day01.OpenBrowserTest01">
+        <class name= "com.it.day01.TestNG01">
             <!--<methods>
                 <include name="openFireFox2"/>
             </methods>-->
